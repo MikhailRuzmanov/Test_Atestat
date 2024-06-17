@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         List<Flight> flights = FlightBuilder.createFlights();
 
-        System.out.println("\n Показывает полеты,исключая полеты до текущего момента времени : ");
+        System.out.println("\n Показывает полеты,исключая полеты до текущего момента времени: ");
         flightTimeAfterNow(flights);
         System.out.println("\n Показывает  полеты без сегментов с датой прилёта раньше даты вылета : ");
         flightsAfterDepartureDate(flights);
