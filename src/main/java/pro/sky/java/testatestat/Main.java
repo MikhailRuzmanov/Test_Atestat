@@ -9,9 +9,9 @@ public class Main {
 
         System.out.println("\n Показывает полеты,исключая полеты до текущего момента времени: ");
         flightTimeAfterNow(flights);
-        System.out.println("\n Показывает  полеты без сегментов с датой прилёта раньше даты вылета: ");
+        System.out.println("\n Показывает  полеты без сегментов с датой прилёта раньше даты вылета : ");
         flightsAfterDepartureDate(flights);
-        System.out.println("\n Показывает полеты, где общее время, проведённое на земле, не превышает два часа: ");
+        System.out.println("\n Показывает полеты, где общее время, проведённое на земле, не превышает два часа : ");
         flightsTimeOnEarthLessTwoHours(flights);
     }
 
